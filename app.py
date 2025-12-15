@@ -9,8 +9,8 @@ import time
 app = Flask(__name__)
 
 # ---------------------------------------
-PUBLIC_KEY = "A389FD3350D03EF99F9B98F711061B8F1E1E54B6472C746CC0551AE426A131EC"
-APPLICATION_ID = "1448609543356547143"
+PUBLIC_KEY = "pridajte_vase"
+APPLICATION_ID = "pridajte_vase"
 # ---------------------------------------
 
 
@@ -71,4 +71,4 @@ def send_followups(interaction):
 
 
 if __name__ == "__main__":
-    app.run(port=3000)
+    app.run(port=pridajte_vas_port)
